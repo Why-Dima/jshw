@@ -1,3 +1,5 @@
+// 1 task
+
 function output(keyvalue){
     for (let key in keyvalue) {
 
@@ -12,6 +14,8 @@ const args = { hello: 'world', world: 'hello'}
 
 output(args)
 
+// 2 task
+
 function outputTrueFalse(str, dict){
     console.log(str in dict)
 }
@@ -19,6 +23,7 @@ function outputTrueFalse(str, dict){
 outputTrueFalse('a', args)
 outputTrueFalse('hello', args)
 
+// 3 task
 
 function emptyObj(obj){
     var obj = new Object();
@@ -28,6 +33,7 @@ function emptyObj(obj){
 
 emptyObj('hello')
 
+// 4-5 task
 
 class ElectricalAppliance{
     constructor(name,){
